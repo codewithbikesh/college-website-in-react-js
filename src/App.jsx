@@ -6,6 +6,7 @@ import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Compus from './Components/Compus/Compus'
+import Testimonials from './Components/Testimonials/Testimonials'
 function App() {
   return (
     <div>
@@ -18,9 +19,11 @@ function App() {
       <Title subTitle='Gallery' title='Compus Photos' />
       <Compus />
       <Title subTitle='TESTIMONIALS' title='What Student Says' />
+      <Testimonials />
       </div>
     </div>
   )
 }
 
 export default App
+
